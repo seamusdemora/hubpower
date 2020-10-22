@@ -6,7 +6,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <string.h>
+/* REF https://github.com/hevz/hubpower/issues/1#issuecomment-641641017;
+<strings.h> should be <string.h>
 #include <strings.h>
+*/
 #include <fcntl.h>
 #include <errno.h>
 #include <sys/ioctl.h>
